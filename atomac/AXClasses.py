@@ -668,7 +668,7 @@ class BaseAXUIElement(_a11y.AXUIElement):
             target = self
         try:
             children = target.AXChildren
-        except _a11y.Error:
+        except Exception:
             return
         if children:
             for child in children:
