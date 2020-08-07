@@ -45,3 +45,4 @@ getAppRefByBundleId = NativeUIElement.getAppRefByBundleId
 launchAppByBundleId = NativeUIElement.launchAppByBundleId
 getFrontmostApp = NativeUIElement.getFrontmostApp
 getAppRefByPid = NativeUIElement.getAppRefByPid
+getRunningApps = NativeUIElement.getRunningApps

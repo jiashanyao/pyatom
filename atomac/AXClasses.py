@@ -55,6 +55,10 @@ class BaseAXUIElement(_a11y.AXUIElement):
         return apps
 
     @classmethod
+    def getRunningApps(cls):
+        return cls._getRunningApps()
+
+    @classmethod
     def getAppRefByPid(cls, pid):
         """Get the top level element for the application specified by pid."""
         return _a11y.getAppRefByPid(cls, pid)
